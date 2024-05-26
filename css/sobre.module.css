@@ -1,0 +1,101 @@
+@font-face {
+    font-family: believe;
+    src: local(believe), url('../fonts/Make\ Believe\ -\ Demo.ttf');
+}
+
+.nome_dev {
+    width: 40%;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px black;
+    margin: 25px auto;
+    border-radius: 5px;
+
+    h1 {
+        font-family: believe;
+        font-size: 250%;
+        border: 0;
+    }
+}
+
+
+header {
+    margin: auto;
+    width: 940px;
+
+    h1 {
+        margin: 10px 0;
+        padding: 10px;
+        background-image: url(../img/sobre-background.jpg);
+        width: 100%;
+        border: 0;
+    }
+
+    figure {
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+main {
+    margin: auto;
+    width: 940px;
+
+    h1{
+        margin: 10px 0;
+    }
+
+    figure {
+        width: max-content;
+        height: max-content;
+        margin: auto;
+        padding: 10px;
+        background-color: #F2EDED;
+        border: 1px solid #ccc;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        figcaption {
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+
+    figure:nth-of-type(2) {
+       float: right;
+       margin: 10px;
+    }
+
+    ul > li{
+        margin-left: 20px;
+    }
+}
+
+footer {
+    margin: 30px auto;
+    width: 940px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+    p {
+        width: max-content;
+        text-indent: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .familia_pelho_txt_img {
+        display: block;
+    }
+}
