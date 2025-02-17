@@ -4,5 +4,5 @@ site feito no começo da faculdade, o objetivo era fazer um exemplo de tela de l
 
 ## 🚀 Tecnologias Utilizadas
 
-- **HTML**-Estrutura da página
-- **CSS**- Estilização
+- **HTML** - Estrutura da página
+- **CSS** - Estilização
